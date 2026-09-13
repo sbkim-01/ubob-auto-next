@@ -106,8 +106,6 @@ state.json        # 자동 클릭 횟수 및 마지막 학습 페이지 정보
 node_modules/     # 실행에 필요한 Node.js 패키지
 ```
 
-이 항목들은 `.gitignore`에 포함되어 있어 일반적인 `git add .` 실행 시 GitHub에 업로드되지 않습니다.
-
 ## 주의사항
 
 - **`chrome-profile/`에는 로그인 쿠키, 세션 정보 등 계정과 관련된 데이터가 저장될 수 있습니다. 이 폴더를 다른 사람에게 공유하거나 GitHub에 업로드하지 마세요.**
@@ -116,13 +114,3 @@ node_modules/     # 실행에 필요한 Node.js 패키지
 - 사이트의 화면 구조나 팝업 HTML이 변경되면 자동 클릭 기능이 동작하지 않을 수 있습니다.
 - 이 도구는 `catholic-edu.ubob.com`의 특정 학습 완료 팝업을 대상으로 작성되었습니다.
 - `start.bat`은 Windows `cmd.exe` 호환성을 위해 ASCII 및 CRLF 형식을 사용합니다.
-
-## 업데이트
-
-코드를 수정한 뒤 GitHub에 반영하려면 다음 명령어를 사용합니다.
-
-```bat
-git add .
-git commit -m "Update"
-git push
-```
