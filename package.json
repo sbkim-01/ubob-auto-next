@@ -1,0 +1,13 @@
+{
+  "name": "ubob-auto-next",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome automation for the catholic-edu.ubob.com content-complete confirmation popup",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "playwright-core": "^1.55.0"
+  }
+}

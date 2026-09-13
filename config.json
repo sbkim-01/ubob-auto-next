@@ -1,0 +1,7 @@
+{
+  "startUrl": "https://catholic-edu.ubob.com/Series/SeriesDetail/5b929da1-b595-433b-9c6c-19de6eb3a797",
+  "allowedHost": "catholic-edu.ubob.com",
+  "scanIntervalMs": 700,
+  "clickDelayMs": 350,
+  "clickCooldownMs": 3000
+}

@@ -1,0 +1,5 @@
+node_modules/
+chrome-profile/
+logs/
+state.json
+.env
